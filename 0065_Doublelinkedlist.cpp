@@ -107,3 +107,6 @@ while (current != NULL && current->noMhs != rollno)
             current->next->prev = previous;
         }
     }
+
+ delete current;
+    cout << "\x1b[32mRecord with roll number" << rollno << "deleted\x1b[0m" << endl;
